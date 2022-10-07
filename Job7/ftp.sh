@@ -13,3 +13,4 @@ cat modules_template.conf > /etc/proftpd/modules.conf
 cat tls_template.conf > /etc/proftpd/tls.conf
 
 
+groupadd ftpgroup -g 899
